@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZE-Hackintosh.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-10T06:05:25.232Z</updated>
+    <updated>2021-02-10T06:15:03.532Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZE-Hackintosh.github.io"/>
     <link rel="self" href="https://MEMUZE-Hackintosh.github.io/atom.xml"/>
@@ -10,4 +10,11 @@
     <logo>https://MEMUZE-Hackintosh.github.io/images/avatar.png</logo>
     <icon>https://MEMUZE-Hackintosh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MEMUZE的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[PM981硬盘如何安装MacOS？]]></title>
+        <id>https://MEMUZE-Hackintosh.github.io/post/pm981-ying-pan-ru-he-an-zhuang-macos/</id>
+        <link href="https://MEMUZE-Hackintosh.github.io/post/pm981-ying-pan-ru-he-an-zhuang-macos/">
+        </link>
+        <updated>2021-02-10T06:11:20.000Z</updated>
+    </entry>
 </feed>
