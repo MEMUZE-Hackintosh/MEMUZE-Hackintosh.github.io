@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>黑苹果 | MEMUZE的博客</title>
+<title>【黑苹果】安装完成后时间不同步怎么办？ | MEMUZE的博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,22 @@
 <link rel="stylesheet" href="https://MEMUZEmingze.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="期待与你一同成长">
+    <meta name="description" content="你会发现两个系统的时间刚好差了8个小时，这是由于苹果系统与windows的时间计算方式不同所以只需要给windows打个补丁即可成功同步时间。
+复制下面的文字，以管理员身份启动CMD，然后Ctrl+v粘贴，按回车键即可。
+Reg add H..." />
+    <meta name="keywords" content="时间,黑苹果" />
   </head>
   <body>
     <div id="app" class="main">
@@ -102,53 +111,52 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: 黑苹果</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://MEMUZEmingze.github.io/post/hei-ping-guo-an-zhuang-wan-cheng-hou-shi-jian-bu-tong-bu-zen-me-ban/">
-                  <h2 class="post-title">【黑苹果】安装完成后时间不同步怎么办？</h2>
-                </a>
-                <div class="post-date">
-                  2021-02-10
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
+          <div class="post-detail">
+            <h2 class="post-title">【黑苹果】安装完成后时间不同步怎么办？</h2>
+            <div class="post-date">2021-02-10</div>
+            
+              <div class="feature-container" style="background-image: url('https://MEMUZEmingze.github.io/post-images/hei-ping-guo-an-zhuang-wan-cheng-hou-shi-jian-bu-tong-bu-zen-me-ban.jpeg')">
               </div>
-              
-                <a class="right" href="https://MEMUZEmingze.github.io/post/hei-ping-guo-an-zhuang-wan-cheng-hou-shi-jian-bu-tong-bu-zen-me-ban/">
-                  <div class="feature-container" style="background-image: url('https://MEMUZEmingze.github.io/post-images/hei-ping-guo-an-zhuang-wan-cheng-hou-shi-jian-bu-tong-bu-zen-me-ban.jpeg')">
-                  </div>
-                </a>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://MEMUZEmingze.github.io/post/pm981-ying-pan-ru-he-an-zhuang-macos/">
-                  <h2 class="post-title">【黑苹果】硬盘恢复版，PM981如何安装MacOS？</h2>
-                </a>
-                <div class="post-date">
-                  2019-10-12
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-                <a class="right" href="https://MEMUZEmingze.github.io/post/pm981-ying-pan-ru-he-an-zhuang-macos/">
-                  <div class="feature-container" style="background-image: url('https://MEMUZEmingze.github.io/post-images/pm981-ying-pan-ru-he-an-zhuang-macos.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            
+            <div class="post-content" v-pre>
+              <p>你会发现两个系统的时间刚好差了8个小时，这是由于苹果系统与windows的时间计算方式不同所以只需要给windows打个补丁即可成功同步时间。</p>
+<p>复制下面的文字，以管理员身份启动CMD，然后Ctrl+v粘贴，按回车键即可。</p>
+<pre><code>Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1</code></pre>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://MEMUZEmingze.github.io/tag/hWJ0y7pQR/" class="tag">
+                    时间
+                  </a>
+                
+                  <a href="https://MEMUZEmingze.github.io/tag/U3bi01VVM/" class="tag">
+                    黑苹果
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://MEMUZEmingze.github.io/post/pm981-ying-pan-ru-he-an-zhuang-macos/">
+                  <h3 class="post-title">
+                    【黑苹果】硬盘恢复版，PM981如何安装MacOS？
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -174,6 +182,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
