@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZEmingze.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-10T11:12:33.050Z</updated>
+    <updated>2021-02-10T11:29:55.402Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZEmingze.github.io"/>
     <link rel="self" href="https://MEMUZEmingze.github.io/atom.xml"/>
@@ -10,6 +10,57 @@
     <logo>https://MEMUZEmingze.github.io/images/avatar.png</logo>
     <icon>https://MEMUZEmingze.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MEMUZE的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[【黑苹果】飞行堡垒6FX86FE黑苹果成功案例。]]></title>
+        <id>https://MEMUZEmingze.github.io/post/hei-ping-guo-fei-xing-bao-lei-6fx86fe-hei-ping-guo-cheng-gong-an-li/</id>
+        <link href="https://MEMUZEmingze.github.io/post/hei-ping-guo-fei-xing-bao-lei-6fx86fe-hei-ping-guo-cheng-gong-an-li/">
+        </link>
+        <updated>2021-02-10T11:12:59.000Z</updated>
+        <content type="html"><![CDATA[<p>先说一下我的配置：</p>
+<p>华硕飞行堡垒6，笔记本</p>
+<p>CPU：i7-8750H</p>
+<p>显卡：GTX1050Ti（不重要）</p>
+<p>——UHD630（显存更改至2048M）</p>
+<p>主板：H370M</p>
+<p>网卡：BCM943224(可以自行更换免驱网卡)</p>
+<hr>
+<p>修复了电池拔掉充电器后电量显示不正常的BUG<br>
+修复了开机后2分钟屏幕无背光（降级了WhatEverGreen驱动）</p>
+<p>千万不要自行升级WhatEverGreen和BatteryManager驱动，自行升级造成的不开机，可以重新下载本EFI。</p>
+<p>基于1.4（OC0.6.5-Release）<br>
+升级引导至OC0.6.5正式版<br>
+网卡更换至BCM943224<br>
+不再提供无网卡版本</p>
+<p>++++++++++++++++++++<br>
+删除了intel蓝牙驱动<br>
+添加了开机音<br>
+显存改回2048M（2G）</p>
+<h1 id="成功引导big-sur-11220d62">====================<br>
+成功引导Big Sur 11.2(20D62)<br>
+<img src="https://user-images.githubusercontent.com/62540604/106102132-e53f4c80-6179-11eb-92bc-5c602b74094b.png" alt="" loading="lazy"></h1>
+<p>是否还有人想用intel蓝牙驱动？可以来我的BiliBili私信我，或者在下方留言，下个版本就会加上去。</p>
+<p>目前可用：<br>
+声音：麦克风、扬声器外放、耳机孔、USB耳麦</p>
+<p>显示：内建120Hz.1080P屏幕、隔空显示器</p>
+<p>社交：iMessage、FaceTime、接力（需自行注入三码）、Airdrop（需自行更换免驱的M2/NGFF网卡）</p>
+<p>其他设备：内建摄像头、内建蓝牙、触控板（可在系统偏好设置中管理）、电池(已解决无电量显示问题)、Fn快捷键（PRTSC键是开关触控板）</p>
+<p>该版本可以同时兼顾安装与引导！</p>
+<p>如果有问题可以在下方或B站给我留言：</p>
+<p>日后的更新都将在GitHub与Gitee更新：<br>
+https://github.com/MEMUZE-Hackintosh/ASUS-FX86FE-OC/releases<br>
+https://gitee.com/memuze/ASUS-FX86FE-OC/releases<br>
+QQ群：470377587</p>
+<blockquote>
+<p>直接下载</p>
+</blockquote>
+<p>https://gitee.com/memuze/ASUS-FX86FE-OC/attach_files/607725/download/v1.4.1-OC-Release.zip</p>
+<p>辣鸡远景，放个QQ群号就给我封了，以后再也不发远景了！！大家也不需要去远景抱不平，没必要和垃圾论坛斗嘴脏了自己的嘴。<br>
+这几年远景的风气真的差到一个极致，询问贴下面一堆『自己去看教程』，要是每个人都会，还要论坛做什么，我在论坛上发了个资源贴，结果就因为QQ群号给我封了号，算了，让它自取灭亡吧。<br>
+作者：MEMUZE<br>
+https://www.bilibili.com/read/cv6770018<br>
+出处： bilibili</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【黑苹果】安装完成后时间不同步怎么办？]]></title>
         <id>https://MEMUZEmingze.github.io/post/hei-ping-guo-an-zhuang-wan-cheng-hou-shi-jian-bu-tong-bu-zen-me-ban/</id>
