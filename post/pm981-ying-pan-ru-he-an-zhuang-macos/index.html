@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://MEMUZE-Hackintosh.github.io/favicon.ico?v=1612939599332">
+<link rel="shortcut icon" href="https://MEMUZE-Hackintosh.github.io/favicon.ico?v=1612943607998">
 <link rel="stylesheet" href="https://MEMUZE-Hackintosh.github.io/styles/main.css">
 
 
@@ -35,7 +35,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://MEMUZE-Hackintosh.github.io">
-        <img src="https://MEMUZE-Hackintosh.github.io/images/avatar.png?v=1612939599332" class="site-logo">
+        <img src="https://MEMUZE-Hackintosh.github.io/images/avatar.png?v=1612943607998" class="site-logo">
         <h1 class="site-title">MEMUZE的博客</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -114,7 +114,49 @@
             <div class="post-content" v-pre>
               <p>PM981无法正常安装MacOS，但是一直有一个办法就是在其他电脑上安装完再“拷贝”到PM981上。<br>
 但是这个方法经常伴随着一堆内置软件以及奇奇怪怪的用户、密码，关键用着各种不爽，我今天就带来一个我自制的恢复版，保证完全全新，安装完后与正常安装的无异，但是硬盘的空间大小需要手动调整。</p>
-<p>下方是我在B站发布的视频👇</p>
+<blockquote>
+<p>教程</p>
+</blockquote>
+<p>1、安装网盘的“工具”中的“Paragon Hard Disk Manager Advanced 16.23.1 Retail x64.exe”软件后。<br>
+2、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612939780811.png" alt="" loading="lazy"><br>
+3、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940657792.png" alt="" loading="lazy"><br>
+4、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940663276.png" alt="" loading="lazy"><br>
+5、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940670360.png" alt="" loading="lazy"><br>
+6、此处的系统版本根据你当时下载的来。<br>
+7、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940676883.png" alt="" loading="lazy"><br>
+8、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940686244.png" alt="" loading="lazy"><br>
+9、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940690310.png" alt="" loading="lazy"><br>
+10、<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940700546.png" alt="" loading="lazy"><br>
+11、接下来一路选择Next即可。<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940710703.png" alt="" loading="lazy"><br>
+12、在完成后，先别急着重启，把剩下的硬盘新建一个分区，格式任意，接下来用的到。<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940715752.png" alt="" loading="lazy"></p>
+<p>释放完系统后就可以直接重启使用OC、clover等引导进入系统咯，</p>
+<blockquote>
+<p>调整磁盘大小<br>
+1、安装完成后点击启动台<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612942961440.png" alt="" loading="lazy"><br>
+2、在“其他”文件夹中找到磁盘工具<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943064992.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943079762.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943141355.png" alt="" loading="lazy"><br>
+3、打开后在左侧选择显示所有设备<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943146323.png" alt="" loading="lazy"><br>
+4、之后选择你的磁盘所在的容器（容器如果是灰色的右键装载一下即可）或者整个硬盘<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943263245.png" alt="" loading="lazy"><br>
+5、点击右上角的分区<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943407103.jpg" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943415162.png" alt="" loading="lazy"><br>
+6、选择你刚刚在windows用剩下的空间“随便”建立的那个分区，点击“-”将其删除<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943487399.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943491408.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943558704.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943566431.png" alt="" loading="lazy"><br>
+等待完成<br>
+<img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943573099.png" alt="" loading="lazy"><br>
+现在硬盘就变大了。</p>
+</blockquote>
+<p>下方是我在B站发布的视频👇（安装所需的EFI要自己配置）</p>
 <iframe src="//player.bilibili.com/player.html?aid=371713425&bvid=BV1rZ4y1M7Qd&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>
             </div>
             
