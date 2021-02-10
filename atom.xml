@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://MEMUZE-Hackintosh.github.io</id>
+    <title>MEMUZE的博客</title>
+    <updated>2021-02-10T06:04:46.851Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://MEMUZE-Hackintosh.github.io"/>
+    <link rel="self" href="https://MEMUZE-Hackintosh.github.io/atom.xml"/>
+    <subtitle>期待与你一同成长</subtitle>
+    <logo>https://MEMUZE-Hackintosh.github.io/images/avatar.png</logo>
+    <icon>https://MEMUZE-Hackintosh.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, MEMUZE的博客</rights>
+</feed>
