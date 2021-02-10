@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZE-Hackintosh.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-10T07:53:29.469Z</updated>
+    <updated>2021-02-10T07:59:01.340Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZE-Hackintosh.github.io"/>
     <link rel="self" href="https://MEMUZE-Hackintosh.github.io/atom.xml"/>
@@ -18,6 +18,11 @@
         <updated>2019-10-12T06:11:20.000Z</updated>
         <content type="html"><![CDATA[<p>PM981无法正常安装MacOS，但是一直有一个办法就是在其他电脑上安装完再“拷贝”到PM981上。<br>
 但是这个方法经常伴随着一堆内置软件以及奇奇怪怪的用户、密码，关键用着各种不爽，我今天就带来一个我自制的恢复版，保证完全全新，安装完后与正常安装的无异，但是硬盘的空间大小需要手动调整。</p>
+<blockquote>
+<p>下载地址</p>
+</blockquote>
+<p>天翼云：<br>
+https://cloud.189.cn/t/222I7bNRfEZj</p>
 <blockquote>
 <p>教程</p>
 </blockquote>
@@ -37,8 +42,9 @@
 <img src="https://MEMUZE-Hackintosh.github.io/post-images/1612940715752.png" alt="" loading="lazy"></p>
 <p>释放完系统后就可以直接重启使用OC、clover等引导进入系统咯，</p>
 <blockquote>
-<p>调整磁盘大小<br>
-1、安装完成后点击启动台<br>
+<p>调整磁盘大小</p>
+</blockquote>
+<p>1、安装完成后点击启动台<br>
 <img src="https://MEMUZE-Hackintosh.github.io/post-images/1612942961440.png" alt="" loading="lazy"><br>
 2、在“其他”文件夹中找到磁盘工具<br>
 <img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943064992.png" alt="" loading="lazy"><br>
@@ -59,7 +65,6 @@
 等待完成<br>
 <img src="https://MEMUZE-Hackintosh.github.io/post-images/1612943573099.png" alt="" loading="lazy"><br>
 现在硬盘就变大了。</p>
-</blockquote>
 <p>下方是我在B站发布的视频👇（安装所需的EFI要自己配置）</p>
 <iframe src="//player.bilibili.com/player.html?aid=371713425&bvid=BV1rZ4y1M7Qd&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>]]></content>
     </entry>
