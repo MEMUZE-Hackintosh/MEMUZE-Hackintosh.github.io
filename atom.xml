@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZEmingze.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-11T04:02:28.877Z</updated>
+    <updated>2021-02-11T05:05:29.803Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZEmingze.github.io"/>
     <link rel="self" href="https://MEMUZEmingze.github.io/atom.xml"/>
@@ -10,6 +10,68 @@
     <logo>https://MEMUZEmingze.github.io/images/avatar.png</logo>
     <icon>https://MEMUZEmingze.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MEMUZE的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[NFC贴纸的相关问题]]></title>
+        <id>https://MEMUZEmingze.github.io/post/nfc-tie-zhi-de-xiang-guan-wen-ti/</id>
+        <link href="https://MEMUZEmingze.github.io/post/nfc-tie-zhi-de-xiang-guan-wen-ti/">
+        </link>
+        <updated>2021-02-11T04:29:29.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>回顾一下NFC贴纸的制作</p>
+</blockquote>
+<p>1、准备好NFC贴纸，现在好像是17、18元钱6张，以前甚至有19.9元10张或者32元25张的，但是最近被炒的呀，不说了，至少价格没有到离谱的地步。<br>
+2、电脑下载网盘里的&quot;一碰传标签制作/清除器&quot;，解压后打开，根据提示来选择1、2、3序号就行。</p>
+<p>具体的请看下方视频</p>
+<iframe src="//player.bilibili.com/player.html?aid=330771282&bvid=BV1oA411s7AU&cid=271210270&page=1&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>
+<p>3、建议方案1：<br>
+使用以下视频提到的“破解版一碰传助手”（已上传网盘，可能提示有病毒，但是并不会造成损害，介意的使用可以使用原版加方案2制作）</p>
+<iframe src="//player.bilibili.com/player.html?aid=330771282&bvid=BV1oA411s7AU&cid=271233617&page=3&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>
+<p>电脑上打开“一碰传标签制作-清除器”<br>
+依次输入“1”“n”“b”然后用手机的“一碰传助手”扫描弹出的二维码，第一次扫描后会提示失败，再次扫描即可成功，然后将手机后盖的NFC区域对准待写入的NFC贴纸，碰一下就完成啦。</p>
+<p>4、建议方案2：<br>
+使用网盘中原版“一碰传助手”<br>
+电脑上打开“一碰传标签制作-清除器”<br>
+依次输入“1”“n”“a”然后用手机的“一碰传助手”扫描弹出的二维码，第一次扫描后会提示失败，再次扫描即可成功，然后将手机后盖的NFC区域对准待写入的NFC贴纸，碰一下就完成啦。</p>
+<blockquote>
+<p>怎么修改NFC贴纸</p>
+</blockquote>
+<p>我换电脑/换网卡了，想把旧的NFC贴纸拿去用，怎么修改呢？<br>
+1、手机进入“设置”<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018235789.jpg" alt="" loading="lazy"><br>
+2、点击关于手机<br>
+3、连续点版本号8~10次<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018253949.jpg" alt="" loading="lazy"><br>
+4、完成后会要求你输入密码，然后提示已经进入开发者模式<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018345387.jpg" alt="" loading="lazy"><br>
+5、接着进入“系统和更新”<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018375859.jpg" alt="" loading="lazy"><br>
+6、会发现多了个开发人员选项<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018388392.jpg" alt="" loading="lazy"><br>
+7、将USB调试按照图中的设置好<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613018438515.jpg" alt="" loading="lazy"><br>
+8、电脑打开“一碰传标签制作-清除器”，并与手机连接好数据线<br>
+连接数据线后会弹出这样的窗口，点取消关掉就行。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613019802887.jpg" alt="" loading="lazy"><br>
+依次选择“2”“回车”，然后手机会弹出“是否允许USB调试”，选择允许即可，你也可以勾上始终允许。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613019765370.jpg" alt="" loading="lazy"></p>
+<p>然后手机会重启<br>
+千万别拔数据线！！！<br>
+千万别拔数据线！！！<br>
+千万别拔数据线！！！<br>
+重启完成后输入锁屏密码后检查USB调试是否是开启状态，如果不是，手动开启一下。</p>
+<p>接下来按“回车”<br>
+会提示“安装NFC Tool 以擦除标签？ y/n”<br>
+如果你本来就有这个软件就输入“n”，没有就“y”<br>
+然后手机上会打开NFC tool软件，在“其他”里面有个“删除标签”，如果显示NFC已禁用，也不要慌，手动打开一下即可。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613019818518.jpg" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613019823884.jpg" alt="" loading="lazy"><br>
+删除完标签，电脑会提示“要启动制作新标签的进程吗？ y/n”<br>
+如果你还要写入就输入“y”不要写入就选“n”<br>
+选了“n”，就结束了，电脑会帮你重启手机，然后就完成了一次擦除。<br>
+选“y”的请根据文章上方的..建议方案1、建议方案2来操作，写入标签后，电脑也会帮你重启手机，然后就完成了一次擦写。</p>
+<p>重启后等手机开机后，解开锁屏密码，在电脑上按提示操作，按下回车后，会再跑一段代码，电脑说可以拔线了再拔，否则引起什么问题，本人概不负责（好吧，其实也没那么严重，再跟着流程走一遍就行。）</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【华为】华为多屏协同破解方案（附NFC制作方法）]]></title>
         <id>https://MEMUZEmingze.github.io/post/hua-wei-hua-wei-duo-ping-xie-tong-po-jie-fang-an/</id>
@@ -72,6 +134,15 @@ https://consumer.huawei.com/cn/support/pc-manager/<br>
 2、电脑下载网盘里的&quot;一碰传标签制作/清除器&quot;，解压后打开，根据提示来选择1、2、3序号就行。</p>
 <p>具体的请看下方视频</p>
 <iframe src="//player.bilibili.com/player.html?aid=330771282&bvid=BV1oA411s7AU&cid=271210270&page=1&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>
+<p>3、建议方案1：<br>
+使用以下视频提到的“破解版一碰传助手”（已上传网盘，可能提示有病毒，但是并不会造成损害，介意的使用可以使用原版加方案2制作）</p>
+<iframe src="//player.bilibili.com/player.html?aid=330771282&bvid=BV1oA411s7AU&cid=271233617&page=3&as_wide=16&high_quality=9&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500px" scrolling="yes" frameborder="0" ></iframe>
+<p>电脑上打开“一碰传标签制作-清除器”<br>
+依次输入“1”“n”“b”然后用手机的“一碰传助手”扫描弹出的二维码，第一次扫描后会提示失败，再次扫描即可成功，然后将手机后盖的NFC区域对准待写入的NFC贴纸，碰一下就完成啦。</p>
+<p>4、建议方案2：<br>
+使用网盘中原版“一碰传助手”<br>
+电脑上打开“一碰传标签制作-清除器”<br>
+依次输入“1”“n”“a”然后用手机的“一碰传助手”扫描弹出的二维码，第一次扫描后会提示失败，再次扫描即可成功，然后将手机后盖的NFC区域对准待写入的NFC贴纸，碰一下就完成啦。</p>
 <blockquote>
 <p>常见问题</p>
 </blockquote>
