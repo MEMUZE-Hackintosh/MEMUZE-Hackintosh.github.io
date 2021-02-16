@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZEmingze.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-16T06:41:14.460Z</updated>
+    <updated>2021-02-16T06:44:30.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZEmingze.github.io"/>
     <link rel="self" href="https://MEMUZEmingze.github.io/atom.xml"/>
@@ -44,10 +44,10 @@
 <blockquote>
 <p>跑分对比：</p>
 </blockquote>
-<p>首先是喜闻乐见的娱乐大师：<br>
+<p>首先是喜闻乐见的娱乐大师（跑分提升16%）：<br>
 默认：<img src="https://MEMUZEmingze.github.io/post-images/1613450240795.png" alt="" loading="lazy"><br>
 降0.130v：<img src="https://MEMUZEmingze.github.io/post-images/1613450301388.png" alt="" loading="lazy"></p>
-<p>然后是稍微正经点的CPU-z：<br>
+<p>然后是稍微正经点的CPU-z（跑分提升12%）：<br>
 默认：<img src="https://MEMUZEmingze.github.io/post-images/1613450334834.png" alt="" loading="lazy"><br>
 降0.130v：<img src="https://MEMUZEmingze.github.io/post-images/1613450350354.png" alt="" loading="lazy"></p>
 <blockquote>
