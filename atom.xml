@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZEmingze.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-11T06:42:39.556Z</updated>
+    <updated>2021-02-16T06:41:14.460Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZEmingze.github.io"/>
     <link rel="self" href="https://MEMUZEmingze.github.io/atom.xml"/>
@@ -10,6 +10,106 @@
     <logo>https://MEMUZEmingze.github.io/images/avatar.png</logo>
     <icon>https://MEMUZEmingze.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, MEMUZE的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[笔记本降压“超频”]]></title>
+        <id>https://MEMUZEmingze.github.io/post/bi-ji-ben-jiang-ya-chao-pin/</id>
+        <link href="https://MEMUZEmingze.github.io/post/bi-ji-ben-jiang-ya-chao-pin/">
+        </link>
+        <updated>2021-02-16T04:30:35.000Z</updated>
+        <content type="html"><![CDATA[<p>降压超频成功，这篇文章教你如何压榨笔记本最后一滴性能，学费B站的一个三连。</p>
+<blockquote>
+<p>下载地址</p>
+</blockquote>
+<p>https://cloud.189.cn/t/qMbQ3a2YVJva</p>
+<blockquote>
+<p>前言</p>
+</blockquote>
+<p>我在群里说了降压超频成功后，立刻就有人反驳我，说什么“睿频没变，不算超频。”<br>
+但PL1频率的的确确提升了，你能确保你打游戏一直运行在PL2的睿频频率？PL1的提升才是对日常使用真正有帮助的。<br>
+或者说你能解锁笔记本的睿频和倍频？那行，那你真能做到我也不多说什么，你的技术的确在我之上，我认你做大哥，那不能做到，然后你又说我这个方法没用，你凭什么？</p>
+<p>这个法子的原理就是，功耗和发热是息息相关的，而功耗是电压乘以电流获得的，电流我们没法控制，所以降低电压，就是为了减少发热，从而获得更高的频率以及性能。</p>
+<blockquote>
+<p>效果图：</p>
+</blockquote>
+<p>（以下频率均为PL1，即长时间运行频率，与之相对还有个PL2，短时运行频率又称“真男人时间”）<br>
+图一：笔记本默认<br>
+电压0.927v上下，频率2.64GHz上下，温度80℃上下<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613450116127.png" alt="" loading="lazy"><br>
+图二：降压0.075v<br>
+电压0.893v上下，频率2.99GHz上下，温度80℃上下<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613450123684.png" alt="" loading="lazy"><br>
+图三：降压0.125v<br>
+电压0.883v上下，频率3.10GHz上下，温度79℃上下<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613450127836.png" alt="" loading="lazy"></p>
+<blockquote>
+<p>跑分对比：</p>
+</blockquote>
+<p>首先是喜闻乐见的娱乐大师：<br>
+默认：<img src="https://MEMUZEmingze.github.io/post-images/1613450240795.png" alt="" loading="lazy"><br>
+降0.130v：<img src="https://MEMUZEmingze.github.io/post-images/1613450301388.png" alt="" loading="lazy"></p>
+<p>然后是稍微正经点的CPU-z：<br>
+默认：<img src="https://MEMUZEmingze.github.io/post-images/1613450334834.png" alt="" loading="lazy"><br>
+降0.130v：<img src="https://MEMUZEmingze.github.io/post-images/1613450350354.png" alt="" loading="lazy"></p>
+<blockquote>
+<p>1、准备工作：</p>
+</blockquote>
+<p>从网盘下载的测试工具，我建议是放在桌面上，方便打开使用<br>
+如果你当前的BIOS可以支持电压的调节，你可以直接去第（）步，或者你是其他品牌的电脑，可以自己去找解锁方法，一般在2020年2月之前的BIOS都是不锁电压的。</p>
+<blockquote>
+<p>2、BIOS降级</p>
+</blockquote>
+<p>现在大多数笔记本都是锁电压的，但是通过降BIOS，或者刷入魔改，可以解锁电压。<br>
+此处以华硕飞行堡垒6为例。<br>
+首先去华硕官网找到下载页面，点击BIOS&amp;固件，<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613453955661.png" alt="" loading="lazy"><br>
+但是我们可以看到，官网所展示的最低BIOS是2020/03/12的306版本，<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613454553775.png" alt="" loading="lazy"><br>
+此时右键任意版本的下载按钮，我们复制它的下载地址。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613454664487.jpg" alt="" loading="lazy"><br>
+复制出来，找个地方粘贴一下，也可以直接粘贴到浏览器的搜索栏中，然后改个版本号，回车试一下，如果官方没有删档，就可以下载下来。</p>
+<blockquote>
+<p>3、使用华硕EzFlash来降级BIOS</p>
+</blockquote>
+<p>首先，打开win10的设置，首先将日期调整到尽可能地后面<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455338988.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455360163.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455368195.png" alt="" loading="lazy"><br>
+然后再去更新中将更新计划改成50年后。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455450815.jpg" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455469123.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455483269.png" alt="" loading="lazy"><br>
+最后搜索服务，将WindowsUpdate禁用<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455525437.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455531189.png" alt="" loading="lazy"><br>
+右键WindowsUpdate，选择属性<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613455561915.png" alt="" loading="lazy"><br>
+将其禁用然后，确定<br>
+这个操作是关闭Windows的自动升级，win10会自动检测BIOS并自动升级，必须得关闭，否则自动升回去后电压就又锁上了。</p>
+<p>接下来找个U盘，将其格式化为Fat32格式，如果右键格式化中没有该选项，可以用DiskGenius（网盘中有），这一步相信大家都会，就不赘述了<br>
+把BIOS文件放进去，重启电脑。<br>
+在看到华硕Logo后按Esc键（飞行堡垒的可以照着我做，其他品牌上网查一下“启动热键”或者“怎么进入BIOS”都能查到。）<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613456162026.jpg" alt="" loading="lazy"><br>
+选择最下面的一个选项（那是进入BIOS的选项）<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613456206332.jpg" alt="" loading="lazy"><br>
+进去后按F7进入高级选项，在里面找到EzFlash3，选择自己的BIOS文件，按yes刷入，等待重启，期间绝对不要拔掉U盘或者关闭电脑！！！<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613456224593.jpg" alt="" loading="lazy"></p>
+<blockquote>
+<p>4、IntelXTU粗讲</p>
+</blockquote>
+<p><img src="https://MEMUZEmingze.github.io/post-images/1613456406383.png" alt="" loading="lazy"><br>
+这个选项就能进入我们要用到的调节面板了（如果你是K系CPU，那也可以用这个面板进行真正的超频）<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613456481605.png" alt="" loading="lazy"><br>
+点击后会弹出警示框，大概就是“这个选项很危险，如果乱改可能会导致不稳定，问你同不同意”这里肯定选同意啦。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613456838647.png" alt="" loading="lazy"><br>
+这些就是我们需要更改的地方了，因为我的目的是省电并减少热量，所以没有把睿频功耗限制放得太高，你也可以拉满，这个都说了是“限制”，所以不会造成系统不稳定。<br>
+重点就是这个补偿电压了，适当地调低，可以减少一定量的热量以及带来少量性能提升，但是下调太多就会造成蓝屏重启，不过不要担心，这个并不会造成缩肛，也不会损害系统和硬件，重启后XTU会自动将电压改回来。<br>
+在你经历千辛万苦终于找到了一个平衡点后，点击Apply，就可以关掉XTU了。</p>
+<p>试着重启一下，重启后右键任务栏，调出任务管理器，如果里面有XtuService就代表成功了。<br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613457598967.jpg" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613457618194.png" alt="" loading="lazy"><br>
+<img src="https://MEMUZEmingze.github.io/post-images/1613457635911.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NFC贴纸的相关问题]]></title>
         <id>https://MEMUZEmingze.github.io/post/nfc-tie-zhi-de-xiang-guan-wen-ti/</id>
