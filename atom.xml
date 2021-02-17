@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://MEMUZEmingze.github.io</id>
     <title>MEMUZE的博客</title>
-    <updated>2021-02-16T06:44:30.202Z</updated>
+    <updated>2021-02-17T00:50:29.641Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://MEMUZEmingze.github.io"/>
     <link rel="self" href="https://MEMUZEmingze.github.io/atom.xml"/>
@@ -17,6 +17,7 @@
         </link>
         <updated>2021-02-16T04:30:35.000Z</updated>
         <content type="html"><![CDATA[<p>降压超频成功，这篇文章教你如何压榨笔记本最后一滴性能，学费B站的一个三连。</p>
+<p>本篇重点全在末尾（不是华硕飞行堡垒的，可以直接跳转到结尾，查看）</p>
 <blockquote>
 <p>下载地址</p>
 </blockquote>
@@ -54,7 +55,7 @@
 <p>1、准备工作：</p>
 </blockquote>
 <p>从网盘下载的测试工具，我建议是放在桌面上，方便打开使用<br>
-如果你当前的BIOS可以支持电压的调节，你可以直接去第（）步，或者你是其他品牌的电脑，可以自己去找解锁方法，一般在2020年2月之前的BIOS都是不锁电压的。</p>
+如果你当前的BIOS可以支持电压的调节，你可以直接去第（4）步，或者你是其他品牌的电脑，可以自己去找解锁方法，一般在2020年2月之前的BIOS都是不锁电压的。</p>
 <blockquote>
 <p>2、BIOS降级</p>
 </blockquote>
@@ -102,7 +103,7 @@
 点击后会弹出警示框，大概就是“这个选项很危险，如果乱改可能会导致不稳定，问你同不同意”这里肯定选同意啦。<br>
 <img src="https://MEMUZEmingze.github.io/post-images/1613456838647.png" alt="" loading="lazy"><br>
 这些就是我们需要更改的地方了，因为我的目的是省电并减少热量，所以没有把睿频功耗限制放得太高，你也可以拉满，这个都说了是“限制”，所以不会造成系统不稳定。<br>
-重点就是这个补偿电压了，适当地调低，可以减少一定量的热量以及带来少量性能提升，但是下调太多就会造成蓝屏重启，不过不要担心，这个并不会造成缩肛，也不会损害系统和硬件，重启后XTU会自动将电压改回来。<br>
+重点就是这个补偿电压了，适当地调低，可以减少一定量的热量以及带来少量性能提升，但是下调太多就会造成蓝屏重启，不过不要担心，这个并不会造成缩肛，也不会损害系统和硬件，重启后XTU会自动将电压改回来。（建议电压：8750H可以-0.130<sub>-0.110v，9750H可以-0.105</sub>-0.095v，其他的没有测，没有设备、没有钱😭，如果你有意向帮助测试可以加群：470377587（QQ），@明泽，留下你的CPU型号以及测试下来的数据）<br>
 在你经历千辛万苦终于找到了一个平衡点后，点击Apply，就可以关掉XTU了。</p>
 <p>试着重启一下，重启后右键任务栏，调出任务管理器，如果里面有XtuService就代表成功了。<br>
 <img src="https://MEMUZEmingze.github.io/post-images/1613457598967.jpg" alt="" loading="lazy"><br>
